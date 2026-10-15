@@ -1,0 +1,1108 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta name="theme-color" content="#6F4E37" />
+        <meta name="color-scheme" content="light" />
+
+        <title>Merveille ROMAO | A Special Day</title>
+
+        <meta
+            name="description"
+            content="Bienvenue dans l'univers de Merveille ROMAO, étudiante en deuxième année de Gestion Banque et Assurance à l'ENEAM et entrepreneure passionnée. Découvrez son parcours, ses souvenirs et cette journée spéciale."
+        />
+
+        <meta name="author" content="Merveille ROMAO" />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+        <meta name="language" content="French" />
+
+        <link rel="canonical" href="https://merveille-romao.netlify.app/" />
+
+        <!-- ========================================= -->
+        <!-- OPEN GRAPH : WHATSAPP, FACEBOOK, MESSENGER -->
+        <!-- ========================================= -->
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:locale" content="fr_FR" />
+
+        <meta property="og:site_name" content="Merveille ROMAO" />
+
+        <meta
+            property="og:title"
+            content="Merveille ROMAO | A Special Day 🤎"
+        />
+
+        <meta
+            property="og:description"
+            content="Une jeune femme ambitieuse, passionnée de gestion et entrepreneure. Découvrez l'univers de Merveille ROMAO et célébrons ensemble cette journée spéciale."
+        />
+
+        <!-- URL PUBLIQUE DU SITE -->
+        <meta
+            property="og:url"
+            content="https://merveille-romao.netlify.app/"
+        />
+
+        <!--
+        IMAGE DE PARTAGE :
+        Utilise idéalement une image de 1200 × 630 pixels.
+        L'image doit être accessible publiquement sur Internet.
+    -->
+
+        <meta
+            property="og:image"
+            content="https://merveille-romao.netlify.app/images/merveille-hero.jpg"
+        />
+
+        <meta
+            property="og:image:secure_url"
+            content="https://merveille-romao.netlify.app/images/merveille-hero.jpg"
+        />
+
+        <meta property="og:image:type" content="image/jpeg" />
+
+        <meta property="og:image:width" content="1200" />
+
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:image:alt" content="Portrait de Merveille ROMAO" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content="Merveille ROMAO | A Special Day" />
+
+        <meta
+            name="twitter:description"
+            content="Découvrez le parcours, les ambitions et les souvenirs de Merveille ROMAO."
+        />
+
+        <meta
+            name="twitter:image"
+            content="https://merveille-romao.netlify.app/assets/images/merveille-hero.jpg"
+        />
+
+        <meta name="twitter:image:alt" content="Portrait de Merveille ROMAO" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/favicon/favicon-16x16.png"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/favicon/favicon-32x32.png"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/assets/favicon/android-chrome-192x192.png"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="/assets/favicon/android-chrome-512x512.png"
+        />
+
+        <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/favicon/apple-touch-icon.png"
+        />
+
+        <meta name="apple-mobile-web-app-title" content="Merveille" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            cream: '#FAF7F2',
+                            chocolate: '#6F4E37',
+                            caramel: '#D6B99A',
+                            dark: '#211A17',
+                        },
+
+                        fontFamily: {
+                            display: ['Playfair Display', 'serif'],
+                            body: ['Poppins', 'sans-serif'],
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+        />
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+                scroll-padding-top: 90px;
+            }
+
+            body {
+                font-family: 'Poppins', sans-serif;
+                background: #faf7f2;
+                color: #211a17;
+                overflow-x: hidden;
+            }
+
+            .font-display {
+                font-family: 'Playfair Display', serif;
+            }
+
+            .hero-content {
+                animation: heroReveal 1.2s ease forwards;
+            }
+
+            @keyframes heroReveal {
+                from {
+                    opacity: 0;
+                    transform: translateY(35px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .hero-image {
+                transition: transform 1s ease;
+            }
+
+            .hero-image:hover {
+                transform: scale(1.035);
+            }
+
+            .gallery-item {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .gallery-item img {
+                transition:
+                    transform 0.7s ease,
+                    filter 0.7s ease;
+            }
+
+            .gallery-item:hover img {
+                transform: scale(1.08);
+                filter: brightness(0.82);
+            }
+
+            .btn-primary {
+                background: #6f4e37;
+                color: #ffffff;
+                transition: all 0.3s ease;
+            }
+
+            .btn-primary:hover {
+                background: #211a17;
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(33, 26, 23, 0.15);
+            }
+
+            .floating {
+                animation: floating 4s ease-in-out infinite;
+            }
+
+            @keyframes floating {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-12px);
+                }
+            }
+
+            #mobile-menu {
+                transition:
+                    opacity 0.3s ease,
+                    transform 0.3s ease;
+            }
+
+            #mobile-menu.hidden-menu {
+                opacity: 0;
+                transform: translateY(-10px);
+                pointer-events: none;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                *,
+                *::before,
+                *::after {
+                    animation-duration: 0.01ms !important;
+                    animation-iteration-count: 1 !important;
+                    scroll-behavior: auto !important;
+                    transition-duration: 0.01ms !important;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header
+            class="fixed top-0 left-0 w-full z-50 bg-cream/90 backdrop-blur-lg border-b border-black/5"
+        >
+            <nav
+                class="max-w-7xl mx-auto px-5 md:px-10 py-4 flex items-center justify-between"
+            >
+                <a
+                    href="#accueil"
+                    class="font-display text-xl md:text-2xl font-semibold tracking-wide"
+                >
+                    MERVEILLE<span class="text-chocolate">.</span>
+                </a>
+
+                <!-- MENU ORDINATEUR -->
+                <div class="hidden md:flex items-center gap-8 text-sm">
+                    <a href="#accueil" class="hover:text-chocolate transition">
+                        Accueil
+                    </a>
+
+                    <a href="#apropos" class="hover:text-chocolate transition">
+                        À propos
+                    </a>
+
+                    <a href="#parcours" class="hover:text-chocolate transition">
+                        Mon parcours
+                    </a>
+
+                    <a href="#galerie" class="hover:text-chocolate transition">
+                        Galerie
+                    </a>
+                </div>
+
+                <!-- BOUTON ANNIVERSAIRE -->
+                <a
+                    href="#anniversaire"
+                    class="hidden sm:flex btn-primary px-5 py-3 rounded-full text-xs tracking-wide items-center gap-2"
+                >
+                    <i data-lucide="heart" class="w-4 h-4"></i>
+
+                    Happy Birthday
+                </a>
+
+                <!-- BOUTON MENU MOBILE -->
+                <button
+                    id="menu-button"
+                    class="md:hidden p-2"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                >
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </nav>
+
+            <!-- MENU MOBILE -->
+            <div
+                id="mobile-menu"
+                class="hidden-menu absolute top-full left-0 w-full bg-cream border-b border-black/5 md:hidden"
+            >
+                <div class="flex flex-col px-6 py-5 gap-5">
+                    <a href="#accueil" class="mobile-link">Accueil</a>
+
+                    <a href="#apropos" class="mobile-link">À propos</a>
+
+                    <a href="#parcours" class="mobile-link">Mon parcours</a>
+
+                    <a href="#galerie" class="mobile-link">Galerie</a>
+
+                    <a
+                        href="#anniversaire"
+                        class="mobile-link text-chocolate font-semibold"
+                    >
+                        Célébrer mon jour
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- ========================================= -->
+            <!-- HERO SECTION -->
+            <!-- ========================================= -->
+
+            <section
+                id="accueil"
+                class="min-h-screen pt-28 pb-16 px-5 md:px-10 flex items-center"
+            >
+                <div
+                    class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center"
+                >
+                    <!-- TEXTE DU HERO -->
+                    <div class="hero-content order-2 lg:order-1">
+                        <div class="flex items-center gap-3 mb-7">
+                            <span class="w-10 h-px bg-chocolate"></span>
+
+                            <p
+                                class="uppercase tracking-[0.25em] text-xs text-chocolate font-medium"
+                            >
+                                A special day · A beautiful soul
+                            </p>
+                        </div>
+
+                        <h1
+                            class="font-display text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-tight"
+                        >
+                            Merveille
+
+                            <span class="block italic text-chocolate">
+                                ROMAO.
+                            </span>
+                        </h1>
+
+                        <p
+                            class="mt-7 text-gray-600 leading-8 max-w-lg text-sm md:text-base"
+                        >
+                            Une jeune femme ambitieuse, passionnée par la
+                            gestion et animée par l'envie d'apprendre,
+                            d'entreprendre et de construire un bel avenir.
+                        </p>
+
+                        <div class="mt-9 flex flex-wrap items-center gap-4">
+                            <a
+                                href="#apropos"
+                                class="btn-primary px-6 py-4 rounded-full text-sm inline-flex items-center gap-3"
+                            >
+                                Découvrir mon univers
+
+                                <i
+                                    data-lucide="arrow-up-right"
+                                    class="w-4 h-4"
+                                ></i>
+                            </a>
+
+                            <a
+                                href="#galerie"
+                                class="px-5 py-4 rounded-full border border-black/15 hover:border-chocolate transition text-sm"
+                            >
+                                Voir la galerie
+                            </a>
+                        </div>
+
+                        <!-- PETITE SIGNATURE -->
+                        <div class="mt-12 flex items-center gap-4">
+                            <div class="w-12 h-px bg-black/20"></div>
+
+                            <p
+                                class="font-display italic text-gray-500 text-sm"
+                            >
+                                A new chapter, a new blessing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- PHOTO PRINCIPALE -->
+                    <div
+                        class="order-1 lg:order-2 relative max-w-md mx-auto lg:max-w-none w-full"
+                        data-aos="fade-left"
+                        data-aos-duration="1200"
+                    >
+                        <!-- ÉLÉMENT DÉCORATIF -->
+                        <div
+                            class="absolute -top-5 -right-2 md:-right-5 w-28 h-28 border border-caramel rounded-full floating"
+                        ></div>
+
+                        <div
+                            class="absolute -bottom-5 -left-5 w-24 h-24 bg-caramel/30 rounded-full -z-10"
+                        ></div>
+
+                        <div
+                            class="relative h-[380px] sm:h-[480px] md:h-[540px] lg:h-[600px] overflow-hidden rounded-t-full rounded-b-[45%] shadow-xl"
+                        >
+                            <img
+                                src="images/merveille-hero.jpeg"
+                                alt="Portrait de Merveille ROMAO"
+                                class="hero-image w-full h-full object-cover"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
+                            />
+
+                            <div
+                                class="hidden absolute inset-0 bg-gradient-to-br from-caramel via-[#B59A80] to-chocolate items-center justify-center flex-col text-white"
+                            >
+                                <i
+                                    data-lucide="camera"
+                                    class="w-12 h-12 mb-4"
+                                ></i>
+
+                                <p class="font-display text-2xl">
+                                    Your photo here
+                                </p>
+
+                                <p class="text-xs mt-2">merveille-hero.jpeg</p>
+                            </div>
+                        </div>
+
+                        <!-- BADGE DÉCORATIF -->
+                        <div
+                            class="absolute bottom-8 -left-4 md:-left-10 bg-white shadow-xl px-5 py-4 rounded-xl"
+                        >
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-cream flex items-center justify-center"
+                                >
+                                    <i
+                                        data-lucide="sparkles"
+                                        class="w-5 h-5 text-chocolate"
+                                    ></i>
+                                </div>
+
+                                <div>
+                                    <p class="font-display text-lg">
+                                        Simply Merveille
+                                    </p>
+
+                                    <p
+                                        class="text-[10px] text-gray-500 tracking-wider uppercase"
+                                    >
+                                        Beautifully unique
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-dark text-cream py-7 overflow-hidden">
+                <div
+                    class="max-w-7xl mx-auto px-5 flex flex-wrap justify-center items-center gap-x-8 gap-y-4 text-center"
+                >
+                    <span class="font-display italic text-xl md:text-2xl">
+                        Dreams
+                    </span>
+
+                    <span class="text-caramel">✦</span>
+
+                    <span class="font-display italic text-xl md:text-2xl">
+                        Ambition
+                    </span>
+
+                    <span class="text-caramel">✦</span>
+
+                    <span class="font-display italic text-xl md:text-2xl">
+                        Grace
+                    </span>
+
+                    <span class="text-caramel">✦</span>
+
+                    <span class="font-display italic text-xl md:text-2xl">
+                        Gratitude
+                    </span>
+                </div>
+            </section>
+
+            <section id="apropos" class="py-24 md:py-32 px-5 md:px-10">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-16" data-aos="fade-up">
+                        <p
+                            class="text-chocolate uppercase tracking-[0.3em] text-xs font-medium mb-4"
+                        >
+                            Get to know me
+                        </p>
+
+                        <h2 class="font-display text-4xl md:text-6xl">
+                            Un peu de
+                            <span class="italic text-chocolate">moi.</span>
+                        </h2>
+                    </div>
+
+                    <div
+                        class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center"
+                    >
+                        <!-- PHOTO SECONDAIRE -->
+                        <div
+                            class="relative max-w-lg mx-auto w-full"
+                            data-aos="fade-right"
+                        >
+                            <div
+                                class="absolute -top-4 -left-4 w-full h-full border border-caramel rounded-sm"
+                            ></div>
+
+                            <div
+                                class="relative h-[350px] sm:h-[450px] overflow-hidden bg-[#E6D8C8]"
+                            >
+                                <img
+                                    src="images/merveille-1.jpeg"
+                                    alt="Merveille dans son univers"
+                                    class="w-full h-full object-cover"
+                                    loading="lazy"
+                                    onerror="
+                                        this.style.display = 'none';
+                                        this.nextElementSibling.style.display =
+                                            'flex';
+                                    "
+                                />
+
+                                <div
+                                    class="hidden absolute inset-0 items-center justify-center flex-col text-chocolate"
+                                >
+                                    <i
+                                        data-lucide="image"
+                                        class="w-10 h-10 mb-3"
+                                    ></i>
+
+                                    <p class="text-sm">
+                                        Ajouter merveille-1.jpeg
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left">
+                            <p
+                                class="font-display text-3xl md:text-4xl leading-snug"
+                            >
+                                Je suis Merveille, une jeune femme qui croit en
+                                la beauté des ambitions.
+                            </p>
+
+                            <div class="w-16 h-1 bg-chocolate mt-7 mb-7"></div>
+
+                            <p
+                                class="text-gray-600 text-sm md:text-base leading-8"
+                            >
+                                Étudiante en deuxième année de Gestion Banque et
+                                Assurance à l'ENEAM, je suis passionnée par le
+                                domaine de la gestion et tout ce qui touche à
+                                l'organisation, à la relation client et au monde
+                                des affaires.
+                            </p>
+
+                            <p
+                                class="text-gray-600 text-sm md:text-base leading-8 mt-5"
+                            >
+                                En parallèle de mes études, je gère une petite
+                                boutique qui me permet de mettre en pratique mes
+                                connaissances, de développer mon sens des
+                                responsabilités et d'apprendre chaque jour
+                                davantage sur l'entrepreneuriat.
+                            </p>
+
+                            <p
+                                class="font-display italic text-xl text-chocolate mt-8"
+                            >
+                                Apprendre aujourd'hui, construire demain.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="parcours"
+                class="bg-[#F0E9E0] py-24 md:py-32 px-5 md:px-10"
+            >
+                <div class="max-w-7xl mx-auto">
+                    <div class="max-w-2xl mb-16" data-aos="fade-up">
+                        <p
+                            class="text-chocolate uppercase tracking-[0.3em] text-xs font-medium mb-4"
+                        >
+                            My journey
+                        </p>
+
+                        <h2
+                            class="font-display text-4xl md:text-6xl leading-tight"
+                        >
+                            Entre études, passion
+
+                            <span class="italic text-chocolate">
+                                et ambition.
+                            </span>
+                        </h2>
+
+                        <p
+                            class="mt-6 text-gray-600 leading-7 text-sm md:text-base"
+                        >
+                            Chaque expérience est une occasion d'apprendre, de
+                            progresser et de préparer l'avenir que je souhaite.
+                        </p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- CARTE 1 -->
+                        <article
+                            class="bg-cream p-8 md:p-10 rounded-sm hover:-translate-y-2 transition duration-500"
+                            data-aos="fade-up"
+                        >
+                            <div
+                                class="w-14 h-14 bg-[#E8D8C8] rounded-full flex items-center justify-center mb-8"
+                            >
+                                <i
+                                    data-lucide="graduation-cap"
+                                    class="w-6 h-6 text-chocolate"
+                                ></i>
+                            </div>
+
+                            <p
+                                class="text-xs text-chocolate uppercase tracking-widest mb-3"
+                            >
+                                01 / Education
+                            </p>
+
+                            <h3 class="font-display text-2xl mb-5">
+                                La connaissance
+                            </h3>
+
+                            <p class="text-sm leading-7 text-gray-600">
+                                En deuxième année de Gestion Banque et Assurance
+                                à l'ENEAM, je développe mes connaissances du
+                                monde de la gestion et des affaires.
+                            </p>
+                        </article>
+
+                        <article
+                            class="bg-dark text-cream p-8 md:p-10 rounded-sm hover:-translate-y-2 transition duration-500"
+                            data-aos="fade-up"
+                            data-aos-delay="150"
+                        >
+                            <div
+                                class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center mb-8"
+                            >
+                                <i
+                                    data-lucide="briefcase-business"
+                                    class="w-6 h-6 text-caramel"
+                                ></i>
+                            </div>
+
+                            <p
+                                class="text-xs text-caramel uppercase tracking-widest mb-3"
+                            >
+                                02 / Entrepreneurship
+                            </p>
+
+                            <h3 class="font-display text-2xl mb-5">
+                                L'entrepreneuriat
+                            </h3>
+
+                            <p class="text-sm leading-7 text-white/70">
+                                Ma boutique est un espace d'apprentissage où je
+                                pratique la gestion, l'organisation et le
+                                service client au quotidien.
+                            </p>
+                        </article>
+
+                        <article
+                            class="bg-cream p-8 md:p-10 rounded-sm hover:-translate-y-2 transition duration-500"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div
+                                class="w-14 h-14 bg-[#E8D8C8] rounded-full flex items-center justify-center mb-8"
+                            >
+                                <i
+                                    data-lucide="trending-up"
+                                    class="w-6 h-6 text-chocolate"
+                                ></i>
+                            </div>
+
+                            <p
+                                class="text-xs text-chocolate uppercase tracking-widest mb-3"
+                            >
+                                03 / My vision
+                            </p>
+
+                            <h3 class="font-display text-2xl mb-5">
+                                L'ambition
+                            </h3>
+
+                            <p class="text-sm leading-7 text-gray-600">
+                                Continuer à apprendre, perfectionner mes
+                                compétences et saisir les opportunités qui me
+                                permettront d'évoluer.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="galerie" class="py-24 md:py-32 px-5 md:px-10">
+                <div class="max-w-7xl mx-auto">
+                    <div
+                        class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14"
+                        data-aos="fade-up"
+                    >
+                        <div>
+                            <p
+                                class="text-chocolate uppercase tracking-[0.3em] text-xs font-medium mb-4"
+                            >
+                                My little world
+                            </p>
+
+                            <h2 class="font-display text-4xl md:text-6xl">
+                                Moments
+                                <span class="italic text-chocolate"
+                                    >précieux.</span
+                                >
+                            </h2>
+                        </div>
+
+                        <p class="text-gray-500 text-sm leading-7 max-w-sm">
+                            Des souvenirs, des sourires et des instants qui
+                            racontent une partie de mon histoire.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5">
+                        <div
+                            class="gallery-item h-56 sm:h-80 md:h-[420px] rounded-sm"
+                            data-aos="fade-up"
+                        >
+                            <img
+                                src="images/merveille-2.jpeg"
+                                alt="Souvenir photo de Merveille"
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
+                            />
+
+                            <div
+                                class="hidden absolute inset-0 bg-[#E6D8C8] items-center justify-center flex-col text-chocolate"
+                            >
+                                <i
+                                    data-lucide="camera"
+                                    class="w-8 h-8 mb-2"
+                                ></i>
+
+                                <span class="text-xs">merveille-2.jpeg</span>
+                            </div>
+                        </div>
+
+                        <!-- PHOTO GALERIE 2 -->
+                        <div
+                            class="gallery-item h-56 sm:h-80 md:h-[420px] rounded-sm md:mt-12"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <!-- PHOTO À REMPLACER : assets/images/merveille-3.jpeg -->
+
+                            <img
+                                src="images/merveille-3.jpeg"
+                                alt="Portrait de Merveille"
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
+                            />
+
+                            <div
+                                class="hidden absolute inset-0 bg-[#D6B99A] items-center justify-center flex-col text-chocolate"
+                            >
+                                <i
+                                    data-lucide="camera"
+                                    class="w-8 h-8 mb-2"
+                                ></i>
+
+                                <span class="text-xs">merveille-3.jpeg</span>
+                            </div>
+                        </div>
+
+                        <!-- PHOTO GALERIE 3 -->
+                        <div
+                            class="gallery-item h-56 sm:h-80 md:h-[420px] rounded-sm col-span-2 md:col-span-1"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <!-- PHOTO À REMPLACER : assets/images/merveille-4.jpeg -->
+
+                            <img
+                                src="images/merveille-4.jpeg"
+                                alt="Un moment spécial de Merveille"
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
+                            />
+
+                            <div
+                                class="hidden absolute inset-0 bg-[#B9A18B] items-center justify-center flex-col text-chocolate"
+                            >
+                                <i
+                                    data-lucide="camera"
+                                    class="w-8 h-8 mb-2"
+                                ></i>
+
+                                <span class="text-xs">merveille-4.jpeg</span>
+                            </div>
+                        </div>
+
+                        <!-- PHOTO GALERIE 4 -->
+                        <div
+                            class="gallery-item h-56 sm:h-80 md:h-[360px] rounded-sm"
+                            data-aos="fade-up"
+                        >
+                            <img
+                                src="images/merveille-5.jpeg"
+                                alt="Souvenir de Merveille"
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
+                            />
+
+                            <div
+                                class="hidden absolute inset-0 bg-[#E6D8C8] items-center justify-center flex-col text-chocolate"
+                            >
+                                <i
+                                    data-lucide="camera"
+                                    class="w-8 h-8 mb-2"
+                                ></i>
+
+                                <span class="text-xs">merveille-5.jpeg</span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-span-1 md:col-span-2 min-h-56 md:min-h-[360px] bg-dark text-cream p-7 sm:p-10 md:p-14 flex flex-col justify-center"
+                            data-aos="fade-up"
+                            data-aos-delay="150"
+                        >
+                            <i
+                                data-lucide="quote"
+                                class="w-8 h-8 text-caramel mb-6"
+                            ></i>
+
+                            <p
+                                class="font-display italic text-2xl sm:text-3xl md:text-4xl leading-snug"
+                            >
+                                La beauté d'une vie réside aussi dans les
+                                souvenirs qu'elle nous permet de créer.
+                            </p>
+
+                            <p
+                                class="mt-6 text-caramel text-xs tracking-[0.2em] uppercase"
+                            >
+                                My story, my memories
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="anniversaire"
+                class="relative bg-dark text-cream py-28 md:py-36 px-5 md:px-10 overflow-hidden"
+            >
+                <div
+                    class="absolute -top-32 -right-20 w-80 h-80 border border-white/10 rounded-full"
+                ></div>
+
+                <div
+                    class="absolute -bottom-40 -left-20 w-96 h-96 border border-white/10 rounded-full"
+                ></div>
+
+                <div
+                    class="relative max-w-4xl mx-auto text-center"
+                    data-aos="zoom-in"
+                >
+                    <div
+                        class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10 mb-8"
+                    >
+                        <i data-lucide="heart" class="w-7 h-7 text-caramel"></i>
+                    </div>
+
+                    <p
+                        class="text-caramel uppercase tracking-[0.35em] text-xs mb-7"
+                    >
+                        A new chapter begins
+                    </p>
+
+                    <h2
+                        class="font-display text-5xl sm:text-6xl md:text-8xl leading-tight"
+                    >
+                        Happy
+
+                        <span class="block italic text-caramel">
+                            Birthday.
+                        </span>
+                    </h2>
+
+                    <p
+                        class="font-display text-xl md:text-2xl mt-8 italic text-white/80"
+                    >
+                        Une année de plus, une nouvelle page à écrire.
+                    </p>
+
+                    <div class="w-16 h-px bg-caramel mx-auto my-9"></div>
+
+                    <p
+                        class="max-w-2xl mx-auto text-white/70 leading-8 text-sm md:text-base"
+                    >
+                        Que cette nouvelle année de vie soit remplie de bonheur,
+                        de santé, de réussite et d'opportunités. Que tes projets
+                        grandissent, que tes efforts portent leurs fruits et que
+                        chaque jour t'apporte une raison de sourire. Continue de
+                        croire en tes rêves et de rayonner à ta manière.
+                    </p>
+
+                    <p class="font-display text-2xl italic text-caramel mt-9">
+                        With love, Merveille.
+                    </p>
+                </div>
+            </section>
+
+            <section class="py-20 md:py-28 px-5 md:px-10">
+                <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+                    <i
+                        data-lucide="sparkles"
+                        class="w-8 h-8 text-chocolate mx-auto mb-7"
+                    ></i>
+
+                    <p
+                        class="font-display text-3xl sm:text-4xl md:text-5xl leading-snug"
+                    >
+                        « Devenir la femme que l'on rêve d'être, un jour à la
+                        fois. »
+                    </p>
+
+                    <p
+                        class="mt-7 text-xs uppercase tracking-[0.3em] text-chocolate"
+                    >
+                        A woman with a vision
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-[#F0E9E0] py-9 px-5 md:px-10">
+            <div
+                class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5"
+            >
+                <a href="#accueil" class="font-display text-2xl font-semibold">
+                    MERVEILLE<span class="text-chocolate">.</span>
+                </a>
+
+                <p class="text-xs text-gray-500 text-center">
+                    Une histoire, des rêves et une nouvelle année à célébrer.
+                </p>
+
+                <a
+                    href="#accueil"
+                    class="flex items-center gap-2 text-sm hover:text-chocolate transition"
+                >
+                    Retour en haut
+
+                    <i data-lucide="arrow-up" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <div
+                class="max-w-7xl mx-auto border-t border-black/10 mt-7 pt-6 text-center"
+            >
+                <p class="text-xs text-gray-500">
+                    © <span id="current-year"></span> Merveille ROMAO. <br />
+                    DigitalSociety.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+        <script>
+            lucide.createIcons();
+
+            AOS.init({
+                duration: 900,
+                once: true,
+                offset: 80,
+                easing: 'ease-out-cubic',
+            });
+
+            document.getElementById('current-year').textContent =
+                new Date().getFullYear();
+
+            const menuButton = document.getElementById('menu-button');
+
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuButton.addEventListener('click', function () {
+                const isOpen = mobileMenu.classList.toggle('hidden-menu');
+
+                menuButton.setAttribute('aria-expanded', String(!isOpen));
+
+                menuButton.setAttribute(
+                    'aria-label',
+                    isOpen ? 'Ouvrir le menu' : 'Fermer le menu'
+                );
+
+                menuButton.innerHTML = isOpen
+                    ? '<i data-lucide="menu" class="w-6 h-6"></i>'
+                    : '<i data-lucide="x" class="w-6 h-6"></i>';
+
+                lucide.createIcons();
+            });
+
+            document.querySelectorAll('.mobile-link').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    mobileMenu.classList.add('hidden-menu');
+
+                    menuButton.setAttribute('aria-expanded', 'false');
+
+                    menuButton.setAttribute('aria-label', 'Ouvrir le menu');
+
+                    menuButton.innerHTML =
+                        '<i data-lucide="menu" class="w-6 h-6"></i>';
+
+                    lucide.createIcons();
+                });
+            });
+        </script>
+    </body>
+</html>
